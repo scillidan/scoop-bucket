@@ -1,0 +1,30 @@
+{
+    "version": "version_6.5.2",
+    "description": "Improved AudioBookConverter based on freeipodsoftware release (mp3 to m4b converter).",
+    "homepage": "https://github.com/yermak/AudioBookConverter",
+    "license": "GPL-2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yermak/AudioBookConverter/releases/download/version_6.5.2/AudioBookConverter-Portable-6.5.2.zip",
+            "hash": "09AF957747E14B65E5488579D9FB3E89021ABB3E817996B1C374527ACB7FB202"
+        }
+    },
+    "extract_dir": "AudioBookConverter",
+    "shortcuts": [
+        [
+            "AudioBookConverter.exe",
+            "AudioBookConverter"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/yermak/AudioBookConverter/releases/latest",
+        "regex": "AudioBookConverter-Portable-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/yermak/AudioBookConverter/releases/download/version_$version/AudioBookConverter-Portable-$version.zip"
+            }
+        }
+    }
+}
