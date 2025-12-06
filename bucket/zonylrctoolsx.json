@@ -1,0 +1,29 @@
+{
+    "version": "2024121577",
+    "description": "ZonyLrcToolX 4 is a cross-platform lyrics download tool based on CEF.",
+    "homepage": "https://github.com/real-zony/ZonyLrcToolsX",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/real-zony/ZonyLrcToolsX/releases/download/ZonyLrcToolsX_Alpha.2024121577/ZonyLrcTools_win-x64_2024121577.zip",
+            "hash": "382DFCEF1FE740839634AA4A93BD057398F1E32B4472B7B6CED8C13D6AADA3C3"
+        }
+    },
+    "bin": [
+        [
+            "ZonyLrcTools.Cli.exe",
+            "zonylrctools"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/real-zony/ZonyLrcToolsX/releases/latest",
+        "regex": "ZonyLrcTools_win-x64_(\\d{10}).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/real-zony/ZonyLrcToolsX/releases/download/$version/ZonyLrcTools_win-x64_$version.zip"
+            }
+        }
+    }
+}
