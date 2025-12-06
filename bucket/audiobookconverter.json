@@ -1,5 +1,5 @@
 {
-    "version": "version_6.5.2",
+    "version": "6.5.2",
     "description": "Improved AudioBookConverter based on freeipodsoftware release (mp3 to m4b converter).",
     "homepage": "https://github.com/yermak/AudioBookConverter",
     "license": "GPL-2",
