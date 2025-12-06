@@ -1,5 +1,5 @@
 {
-    "version": "v.1.4.2",
+    "version": "1.4.2",
     "description": "Virtual desktops for Windows.",
     "homepage": "https://github.com/henkman/virgo",
     "license": "MIT",
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/henkman/virgo/releases/download/$version/virgo.zip"
+                "url": "https://github.com/henkman/virgo/releases/download/v.$version/virgo.zip"
             }
         }
     }
