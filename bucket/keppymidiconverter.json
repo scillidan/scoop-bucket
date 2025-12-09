@@ -6,14 +6,24 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/KeppySoftware/KMC/releases/download/19.1.0/KeppyMIDIConverterPortable.zip",
-            "hash": "2670DBF23001393E0D1B5A83E206052802B2255A3AACA81A1E9CC921E09F23CF"
+            "hash": "2670DBF23001393E0D1B5A83E206052802B2255A3AACA81A1E9CC921E09F23CF",
+            "extract_dir": "x64",
+        },
+        "32bit": {
+            "url": "https://github.com/KeppySoftware/KMC/releases/download/19.1.0/KeppyMIDIConverterPortable.zip",
+            "hash": "2670DBF23001393E0D1B5A83E206052802B2255A3AACA81A1E9CC921E09F23CF",
+            "extract_dir": "x86",
         }
     },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\KeppyMIDIConverter.exe.config\")) { New-Item \"$dir\\KeppyMIDIConverter.exe.config\" | Out-Null }",
     "shortcuts": [
         [
-            "x64/KeppyMIDIConverter.exe",
+            "KeppyMIDIConverter.exe",
             "Keppy's MIDI Converter"
         ]
+    ],
+    "persist": [
+        "KeppyMIDIConverter.exe.config"
     ],
     "checkver": {
         "url": "https://github.com/KeppySoftware/KMC/releases/latest",
@@ -22,6 +32,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
+                "url": "https://github.com/KeppySoftware/KMC/releases/download/$version/KeppyMIDIConverterPortable.zip"
+            },
+            "32bit": {
                 "url": "https://github.com/KeppySoftware/KMC/releases/download/$version/KeppyMIDIConverterPortable.zip"
             }
         }
