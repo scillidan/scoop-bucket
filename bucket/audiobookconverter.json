@@ -16,10 +16,7 @@
             "AudioBookConverter"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/yermak/AudioBookConverter/releases/latest",
-        "regex": "AudioBookConverter-Portable-([\\d.]+).zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
