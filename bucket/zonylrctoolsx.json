@@ -7,7 +7,11 @@
         "64bit": {
             "url": "https://github.com/real-zony/ZonyLrcToolsX/releases/download/ZonyLrcToolsX_Alpha.2024121577/ZonyLrcTools_win-x64_2024121577.zip",
             "hash": "382DFCEF1FE740839634AA4A93BD057398F1E32B4472B7B6CED8C13D6AADA3C3"
-        }
+        },
+        "arm64": {
+            "url": "https://github.com/real-zony/ZonyLrcToolsX/releases/download/ZonyLrcToolsX_Alpha.2024121577/ZonyLrcTools_win-arm64_2024121577.zip",
+            "hash": "03BC42117ACB42EE4576075C8F4273DD33DFBF8A23C598A272D73671421DCCD0"
+        },
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\config.yaml\")) { New-Item \"$dir\\config.yaml\" | Out-Null }",
     "bin": [
@@ -24,6 +28,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/real-zony/ZonyLrcToolsX/releases/download/$version/ZonyLrcTools_win-x64_$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/real-zony/ZonyLrcToolsX/releases/download/$version/ZonyLrcTools_win-arm64_$version.zip"
             }
         }
     }
