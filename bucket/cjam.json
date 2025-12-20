@@ -1,12 +1,12 @@
 {
-    "version": "2.3.4.0",
+    "version": "2.4.0.0",
     "description": "A simple MP3 editing tool for Windows. Not open source.",
     "homepage": "https://cjmapp.net",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cutandjoin/Cjam/releases/download/v2340/cjam_v2340e.zip",
-            "hash": "5a5fcb2d73fd945faabace58d71bac5a35883523e20f1ccebb672006e9f25079"
+            "url": "https://github.com/cutandjoin/Cjam/releases/download/v2400/cjam_v2400.zip",
+            "hash": "392c21060e508aed041ba1157706517be83101f0654f8f628de999dccb83b8a4"
         }
     },
     "suggest": {
