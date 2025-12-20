@@ -25,10 +25,7 @@
             ]
         }
     },
-    "checkver": {
-        "url": "https://github.com/Arnau478/hevi",
-        "checkver": "github"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
