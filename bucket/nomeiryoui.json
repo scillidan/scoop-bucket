@@ -16,10 +16,7 @@
             "noMeiryoUI"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/latest",
-        "regex": "noMeiryoUI([\\d.]+).zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
