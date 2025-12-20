@@ -31,10 +31,7 @@
             "Lintalist"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/lintalist/lintalist",
-        "checkver": "github"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
