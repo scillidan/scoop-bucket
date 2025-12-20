@@ -19,10 +19,7 @@
     "persist": [
         "config.yaml",
     ],
-    "checkver": {
-        "url": "https://github.com/real-zony/ZonyLrcToolsX/releases/latest",
-        "regex": "ZonyLrcTools_win-x64_(\\d{10}).zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
