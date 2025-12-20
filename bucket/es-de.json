@@ -31,7 +31,7 @@
     ],
     "checkver": {
         "url": "https://gitlab.com/es-de/emulationstation-de/-/releases",
-        "regex": "ES-DE_(\d+\.\d+\.\d+)-x64_Portable.zip"
+        "regex": "ES-DE_\\d+\\.\\d+\\.\\d+-x64_Portable.zip"
     },
     "autoupdate": {
         "architecture": {
