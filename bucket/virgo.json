@@ -16,10 +16,7 @@
             "virgo"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/henkman/virgo",
-        "checkver": "github"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
