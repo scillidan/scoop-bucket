@@ -10,10 +10,7 @@
         }
     },
     "bin": "untree.exe",
-    "checkver": {
-        "url": "https://github.com/codeinred/untree/releases/latest",
-        "regex": "untree-x86_64-pc-windows-msvc.zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
