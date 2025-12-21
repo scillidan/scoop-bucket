@@ -16,7 +16,11 @@
             "Audio Book Converter"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/yermak/AudioBookConverter/releases",
+        "jsonpath": "$..browser_download_url",
+        "regex": "download/version_([\\d.]+)/AudioBookConverter-Portable-([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
