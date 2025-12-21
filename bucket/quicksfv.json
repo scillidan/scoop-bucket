@@ -22,6 +22,16 @@
     ],
     "checkver": {
         "url": "https://www.quicksfv.org/download.html",
-        "regex": "QuickSFV version \\d+\\.\\d+ for Windows"
+        "regex": "([\\d.]+) for Windows"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.quicksfv.org/quicksfv-setup64.msi"
+            },
+            "32bit": {
+                "url": "https://www.quicksfv.org/quicksfv-setup32.msi"
+            }
+        }
     }
 }
