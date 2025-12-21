@@ -3,12 +3,8 @@
     "description": "Virtual desktops for Windows.",
     "homepage": "https://github.com/henkman/virgo",
     "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/henkman/virgo/releases/download/v.1.4.2/virgo.zip",
-            "hash": "bc9f698daa1a7c19c933f90dd7382af0f7fec844a01f38baa428d3bae318c739"
-        }
-    },
+    "url": "https://github.com/henkman/virgo/releases/download/v.1.4.2/virgo.zip",
+    "hash": "bc9f698daa1a7c19c933f90dd7382af0f7fec844a01f38baa428d3bae318c739",
     "bin": "virgo.exe",
     "shortcuts": [
         [
@@ -16,12 +12,12 @@
             "virgo"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/henkman/virgo/releases",
+        "jsonpath": "$..browser_download_url",
+        "regex": "download/v.([\\d.]+)/virgo"
+    },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/henkman/virgo/releases/download/v.$version/virgo.zip"
-            }
-        }
+        "url": "https://github.com/henkman/virgo/releases/download/v.$version/virgo.zip"
     }
 }
