@@ -6,14 +6,14 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/yermak/AudioBookConverter/releases/download/version_6.6.8/AudioBookConverter-Portable-6.6.8.zip",
-            "hash": "6fb78cb69b8c8a0a11822e25eae97961a50b26fee12f0173da90772bab3d0650"
+            "hash": "FC333346D5AD35E6B6CF12BE23FFDB00EF7BADA48B287F8E702CB49E7D996DAD"
         }
     },
     "extract_dir": "AudioBookConverter",
     "shortcuts": [
         [
             "AudioBookConverter.exe",
-            "AudioBookConverter"
+            "Audio Book Converter"
         ]
     ],
     "checkver": "github",
