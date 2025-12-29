@@ -5,46 +5,34 @@
     "license": "Unlicense license",
     "architecture": {
         "64bit": {
-            "url": "https://raw.githubusercontent.com/wiki/mmozeiko/wcap/wcap-x64.exe",
-            "hash": "4BD124FEBF537F0F569BD5CB7486DDBB9E664B509F39E421E6949767829B6BE6",
-            "pre_install": "if (!(Test-Path \"$persist_dir\\wcap-x64.ini\")) { New-Item \"$dir\\wcap-x64.ini\" | Out-Null }",
-            "shortcuts": [
-                [
-                    "wcap-x64.exe",
-                    "wcap"
-                ]
-            ],
-            "persist": [
-                "wcap-x64.ini"
-            ],
+            "url": "https://raw.githubusercontent.com/wiki/mmozeiko/wcap/wcap-x64.exe#/wcap.exe",
+            "hash": "4BD124FEBF537F0F569BD5CB7486DDBB9E664B509F39E421E6949767829B6BE6"
         },
         "arm64": {
-            "url": "https://raw.githubusercontent.com/wiki/mmozeiko/wcap/wcap-arm64.exe",
-            "hash": "1F8E6DFAB3B2E87E7570340173B021109A699D64CA656E255A15FB83E126E2D7",
-            "pre_install": "if (!(Test-Path \"$persist_dir\\wcap-arm64.ini\")) { New-Item \"$dir\\wcap-arm64.ini\" | Out-Null }",
-            "shortcuts": [
-                [
-                    "wcap-arm64.exe",
-                    "wcap"
-                ]
-            ],
-            "persist": [
-                "wcap-arm64.ini"
-            ],
+            "url": "https://raw.githubusercontent.com/wiki/mmozeiko/wcap/wcap-arm64.exe#/wcap.exe",
+            "hash": "1F8E6DFAB3B2E87E7570340173B021109A699D64CA656E255A15FB83E126E2D7"
         }
     },
+    "shortcuts": [
+        [
+            "wcap.exe",
+            "wcap"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\wcap.ini\")) { New-Item \"$dir\\wcap.ini\" | Out-Null }",
+    "persist": "wcap.ini",
     "checkver": {
         "url": "https://github.com/mmozeiko/wcap/commits/main.atom",
-        "regex": "(?<yyyy>[\\d{4}])-(?<mm>[\\d{2}])-(?<dd>[\\d{2}])T\\d{2}:\\d{2}:\\d{2}Z",
-        "replace": "${yyyy}${mm}${dd}"
+        "regex": "<updated>(\\d{4})-(\\d{2})-(\\d{2})",
+        "replace": "$1$2$3"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://raw.githubusercontent.com/wiki/mmozeiko/wcap/wcap-x64.exe"
+                "url": "https://raw.githubusercontent.com/wiki/mmozeiko/wcap/wcap-x64.exe#/wcap.exe"
             },
             "arm64": {
-                "url": "https://raw.githubusercontent.com/wiki/mmozeiko/wcap/wcap-arm64.exe"
+                "url": "https://raw.githubusercontent.com/wiki/mmozeiko/wcap/wcap-arm64.exe#/wcap.exe"
             }
         }
     }
