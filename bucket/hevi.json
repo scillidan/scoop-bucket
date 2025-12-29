@@ -5,34 +5,23 @@
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86_64-windows.exe",
-            "hash": "B190DC83164330AB5869A0973ED5AA1A992529897FA4C7C8AD2EBF1054607E83",
-            "bin": [
-                [
-                    "hevi-x86_64-windows.exe",
-                    "hevi"
-                ]
-            ]
+            "url": "https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86_64-windows.exe#/hevi.exe",
+            "hash": "b190dc83164330ab5869a0973ed5aa1a992529897fa4c7c8ad2ebf1054607e83"
         },
         "32bit": {
-            "url": "https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86-windows.exe",
-            "hash": "B85788A6A2B08057322AE4629910CB87DE3CFFB23C1BE845DF46214FA0BB8D05",
-            "bin": [
-                [
-                    "hevi-x86-windows.exe",
-                    "hevi"
-                ]
-            ]
+            "url": "https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86-windows.exe#/hevi.exe",
+            "hash": "b85788a6a2b08057322ae4629910cb87de3cffb23c1be845df46214fa0bb8d05"
         }
     },
+    "bin": "hevi.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Arnau478/hevi/releases/download/v$version/hevi-x86_64-windows.exe"
+                "url": "https://github.com/Arnau478/hevi/releases/download/v$version/hevi-x86_64-windows.exe#/hevi.exe"
             },
             "32bit": {
-                "url": "https://github.com/Arnau478/hevi/releases/download/v$version/hevi-x86-windows.exe"
+                "url": "https://github.com/Arnau478/hevi/releases/download/v$version/hevi-x86-windows.exe#/hevi.exe"
             }
         }
     }
