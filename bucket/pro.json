@@ -19,17 +19,13 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/Wowu/pro/releases/download/v$version/pro-windows-amd64.zip",
-                "hash": {
-                    "url": "$baseurl/pro-checksums.txt",
-                    "find": "([a-f0-9]{64})\\s+pro-windows-amd64.*"
-                }
             },
             "arm64": {
                 "url": "https://github.com/Wowu/pro/releases/download/v$version/pro-windows-386.zip",
-                "hash": {
+            },
+            "hash": {
                     "url": "$baseurl/pro-checksums.txt",
-                    "find": "([a-f0-9]{64})\\s+pro-windows-386.*"
-                }
+                    "find": "$sha256\\s+$basename"
             }
         }
     }
