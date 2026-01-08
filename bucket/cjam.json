@@ -23,7 +23,9 @@
     "persist": [
         "cjam.ini"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/cutandjoin/Cjam"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
