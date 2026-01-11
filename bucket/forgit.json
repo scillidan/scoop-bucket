@@ -1,13 +1,13 @@
 {
-    "version": "25.12.0",
+    "version": "26.01.0",
     "description": "A utility tool powered by fzf for using git interactively.",
     "homepage": "https://github.com/wfxr/forgit",
     "license": "MIT",
-    "notes": "Recommend adding bash.exe from the manifest main/git to the top of the system environment's PATH.",
+    "notes": "Recommend adding $env:SCOOP\\apps\\git\\current\\bin, $env:SCOOP\\apps\\git\\current\\usr\\bin, from the manifest main/git to the top of the system environment's PATH.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wfxr/forgit/releases/download/25.12.0/forgit-25.12.0.tar.gz",
-            "hash": "bb6aab32c2870ea98376d122e80bef9248258990b010a4b5256d785d8b62b2d2"
+            "url": "https://github.com/wfxr/forgit/releases/download/26.01.0/forgit-26.01.0.tar.gz",
+            "hash": "df16e3ca5da44724d2712f26e6df3190c43fa35e0f6d0e48da055fa426f9aa36"
         }
     },
     "extract_dir": "bin",
