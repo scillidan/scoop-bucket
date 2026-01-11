@@ -2,7 +2,7 @@
     "version": "1.1.0",
     "description": "Hex viewer.",
     "homepage": "https://github.com/Arnau478/hevi",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0 or later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86_64-windows.exe#/hevi.exe",

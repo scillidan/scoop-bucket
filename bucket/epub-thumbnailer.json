@@ -2,7 +2,7 @@
     "version": "0.0.1a1",
     "description": "Script to extract the cover of an epub book and create a thumbnail for it.",
     "homepage": "https://github.com/scillidan/epub-thumbnailer",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0 or later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/scillidan/epub-thumbnailer/releases/download/0.0.1a1/epub-thumbnailer-x64.zip",
