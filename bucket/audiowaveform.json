@@ -2,7 +2,7 @@
     "version": "1.10.2",
     "description": "C++ program to generate waveform data and render waveform images from audio files.",
     "homepage": "https://github.com/bbc/audiowaveform",
-    "license": "GPL-3.0 or later",
+    "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/bbc/audiowaveform/releases/download/1.10.2/audiowaveform-1.10.2-win64.zip",

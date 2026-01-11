@@ -2,7 +2,7 @@
     "version": "20230526",
     "description": "Copy selected code and automatically remove comments, blank lines, and leading/trailing spaces from a selected code snippet.",
     "homepage": "https://github.com/GithubUserAccountAmazing/ShortScript",
-    "license": "GPL-3.0 or later",
+    "license": "GPL-3.0-or-later",
     "suggest": "Versions/autohotkey1.1",
     "notes": "In $dir, run \"Ahk2Exe /in ShortScript.ahk /out ShortScript.exe\" to build EXE (x64).",
     "url": "https://github.com/GithubUserAccountAmazing/ShortScript/archive/main.zip",
