@@ -23,10 +23,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shshemi/tabiew/releases/download/v$version/tw-x86_64-pc-windows-msvc.exe"
+                "url": "https://github.com/shshemi/tabiew/releases/download/v$version/tw-x86_64-pc-windows-msvc.exe#/tabiew.exe"
             },
             "arm64": {
-                "url": "https://github.com/shshemi/tabiew/releases/download/v$version/tw-aarch64-pc-windows-msvc.exe"
+                "url": "https://github.com/shshemi/tabiew/releases/download/v$version/tw-aarch64-pc-windows-msvc.exe#/tabiew.exe"
             }
         }
     }
