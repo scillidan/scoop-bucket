@@ -5,7 +5,7 @@
     "license": "GPL-3-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/flozz/yoga-image-optimizer/releases/download/v.1.2.4/yoga-image-optimizer_1.2.4_win64.zip",
+            "url": "https://github.com/flozz/yoga-image-optimizer/releases/download/v1.2.4/yoga-image-optimizer_1.2.4_win64.zip",
             "hash": "4c85e93cf38d9e34fee0974c9cd06cf71968ef4b4ca21611fd9b809c48b33681"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/flozz/yoga-image-optimizer/releases/download/v.$version/yoga-image-optimizer_$version_win64.zip"
+                "url": "https://github.com/flozz/yoga-image-optimizer/releases/download/v$version/yoga-image-optimizer_$version_win64.zip"
             }
         }
     }
