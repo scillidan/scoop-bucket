@@ -1,16 +1,16 @@
 {
-    "version": "0.3.2",
+    "version": "0.4.1",
     "description": "See all your installed packages in one place.",
     "homepage": "https://github.com/neur0map/glazepkg",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/neur0map/glazepkg/releases/download/v0.3.2/gpk-windows-amd64.exe#/gpk.exe",
-            "hash": "b9ad2481ba73990bcc664bbbecca013e5473253eceb5cb10ddc63ac31fd2670a"
+            "url": "https://github.com/neur0map/glazepkg/releases/download/v0.4.1/gpk-windows-amd64.exe#/gpk.exe",
+            "hash": "349019fe72a2a906af66f5ab4a8c927eb71a51d5bcfc4bcfedab043f0538c905"
         },
         "arm64": {
-            "url": "https://github.com/neur0map/glazepkg/releases/download/v0.3.2/gpk-windows-arm64.exe#/gpk.exe",
-            "hash": "8f3e94309c0622570934189cdfa47327d382a7c483cc7dda6cc1280ae662bd01"
+            "url": "https://github.com/neur0map/glazepkg/releases/download/v0.4.1/gpk-windows-arm64.exe#/gpk.exe",
+            "hash": "5e6e44acaaf7a27a9e5b80df08791f55ec10b7d2d4ecea6515e4df04d62802d3"
         }
     },
     "bin": "gpk.exe",
